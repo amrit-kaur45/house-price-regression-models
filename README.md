@@ -1,6 +1,6 @@
-<b>California Housing Price Prediction</b>
+# California Housing Price Prediction
 <br>
-# Overview
+ <b>Overview</b>
 This project focuses on predicting housing prices using the California Housing dataset. Multiple supervised learning regression models are implemented and compared to evaluate their performance.
 
 # Objectives
