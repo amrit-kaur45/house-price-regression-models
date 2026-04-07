@@ -4,63 +4,32 @@
 This project focuses on predicting housing prices using the California Housing dataset. Multiple supervised learning regression models are implemented and compared to evaluate their performance.
 
 # Objectives
-Apply and compare different regression algorithms
-Understand the effect of regularization techniques
-Explore tree-based and ensemble learning methods
-Evaluate model performance using standard regression metrics
+<ul> <li>Apply and compare different regression algorithms</li><br> <li>Understand the effect of regularization techniques</li><br> <li>Explore tree-based and ensemble learning methods</li><br> <li>Evaluate model performance using standard regression metrics</li> </ul>
 
 # Technologies Used
-Python
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-XGBoost
-Dataset
-Source: sklearn.datasets.fetch_california_housing
+<ul> <li>Python</li><br> <li>NumPy</li><br> <li>Pandas</li><br> <li>Matplotlib</li><br> <li>Seaborn</li><br> <li>Scikit-learn</li><br> <li>XGBoost</li> </ul>
+
+# Dataset
+
+Source: sklearn.datasets.fetch_california_housing<br>
 The dataset includes features such as median income, house age, average rooms, population, and location-based attributes
 
 # Workflow
 1. Data Preprocessing
-Checked for missing values
-Split dataset into training and testing sets (80/20)
-Applied feature scaling using StandardScaler
+<ul> <li>Checked for missing values</li><br> <li>Split dataset into training and testing sets (80/20)</li><br> <li>Applied feature scaling using StandardScaler</li> </ul>
 2. Models Implemented
-Linear Regression
-Ridge Regression (L2 Regularization)
-Lasso Regression (L1 Regularization)
-Decision Tree Regressor
-Random Forest Regressor
-XGBoost Regressor
-AdaBoost Regressor
+<ul> <li>Linear Regression</li><br> <li>Ridge Regression (L2 Regularization)</li><br> <li>Lasso Regression (L1 Regularization)</li><br> <li>Decision Tree Regressor</li><br> <li>Random Forest Regressor</li><br> <li>XGBoost Regressor</li><br> <li>AdaBoost Regressor</li> </ul>
 3. Hyperparameter Tuning
-GridSearchCV used for Ridge, Lasso, and XGBoost
+<ul> <li>GridSearchCV used for Ridge, Lasso, and XGBoost</li> </ul>
 4. Evaluation Metrics
-R² Score
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-Mean Absolute Error (MAE)
+<ul> <li>R² Score</li><br> <li>Mean Squared Error (MSE)</li><br> <li>Root Mean Squared Error (RMSE)</li><br> <li>Mean Absolute Error (MAE)</li> </ul>
 5. Visualization
-Scatter plots of actual vs predicted values
-Diagonal reference line for performance comparison
-Results Summary
-Model	Performance
-Linear Regression	Moderate
-Ridge Regression	Similar to Linear
-Lasso Regression	Similar with slight feature reduction
-Decision Tree	Tendency to overfit
-Random Forest	Strong performance
-XGBoost	Best performance
-AdaBoost	Good performance
+<ul> <li>Scatter plots of actual vs predicted values</li><br> <li>Diagonal reference line for performance comparison</li> </ul>
 
 # Key Insights
-Linear, Ridge, and Lasso models showed similar performance, indicating limited impact of regularization
-Decision Trees produced step-like predictions and showed overfitting tendencies
-Random Forest improved performance by reducing overfitting
-XGBoost achieved the best results by capturing complex patterns in the data
-Feature importance analysis highlighted the most influential variables
-Conclusion
+<ul> <li>Linear, Ridge, and Lasso models showed similar performance, indicating limited impact of regularization</li><br> <li>Decision Trees produced step-like predictions and showed overfitting tendencies</li><br> <li>Random Forest improved performance by reducing overfitting</li><br> <li>XGBoost achieved the best results by capturing complex patterns in the data</li><br> <li>Feature importance analysis highlighted the most influential variables</li> </ul>
+
+# Conclusion
 
 Tree-based ensemble models outperform linear models for this dataset. XGBoost provides the most accurate and robust predictions.
 
@@ -70,10 +39,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 python main.py
 
 # Future Work
-Add cross-validation comparison for all models
-Perform feature engineering
-Explore advanced boosting models such as LightGBM and CatBoost
-Deploy the model using Flask or Streamlit
-Acknowledgements
-Scikit-learn dataset repository
-Open-source machine learning community
+<ul> <li>Add cross-validation comparison for all models</li><br> <li>Perform feature engineering</li><br> <li>Explore advanced boosting models such as LightGBM and CatBoost</li><br> <li>Deploy the model using Flask or Streamlit</li> </ul>
+
+# Acknowledgements
+<ul> <li>Scikit-learn dataset repository</li><br> <li>Open-source machine learning community</li> </ul>
