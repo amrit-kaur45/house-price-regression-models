@@ -17,7 +17,7 @@ The dataset includes features such as median income, house age, average rooms, p
 
 ## Workflow
 ### 1. Data Preprocessing
-<ul> <li>Checked for missing values</li><br> <li>Split dataset into training and testing sets (80/20)</li><br> <li>Applied feature scaling using StandardScaler</li> </ul>\
+<ul> <li>Checked for missing values</li><br> <li>Split dataset into training and testing sets (80/20)</li><br> <li>Applied feature scaling using StandardScaler</li> </ul>
 
 ### 2. Models Implemented
 <ul> <li>Linear Regression</li><br> <li>Ridge Regression (L2 Regularization)</li><br> <li>Lasso Regression (L1 Regularization)</li><br> <li>Decision Tree Regressor</li><br> <li>Random Forest Regressor</li><br> <li>XGBoost Regressor</li><br> <li>AdaBoost Regressor</li> </ul>
